@@ -161,6 +161,10 @@ Prefab:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1496107540127834, guid: 7c17a165b4d7f4a44b1df843475e9c36, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c17a165b4d7f4a44b1df843475e9c36, type: 2}
   m_IsPrefabParent: 0
@@ -216,6 +220,10 @@ Prefab:
         type: 2}
       propertyPath: m_FlipY
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1496107540127834, guid: 7c17a165b4d7f4a44b1df843475e9c36, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c17a165b4d7f4a44b1df843475e9c36, type: 2}
@@ -341,6 +349,10 @@ Prefab:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1496107540127834, guid: 7c17a165b4d7f4a44b1df843475e9c36, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c17a165b4d7f4a44b1df843475e9c36, type: 2}
   m_IsPrefabParent: 0
@@ -382,6 +394,16 @@ Prefab:
     - target: {fileID: 4520545871678936, guid: d964c0580e2e1fd43b63d739247ae825, type: 2}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114852418245717872, guid: d964c0580e2e1fd43b63d739247ae825,
+        type: 2}
+      propertyPath: movementSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114852418245717872, guid: d964c0580e2e1fd43b63d739247ae825,
+        type: 2}
+      propertyPath: jumpSpeed
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d964c0580e2e1fd43b63d739247ae825, type: 2}
@@ -429,6 +451,10 @@ Prefab:
         type: 2}
       propertyPath: m_FlipX
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1496107540127834, guid: 7c17a165b4d7f4a44b1df843475e9c36, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c17a165b4d7f4a44b1df843475e9c36, type: 2}

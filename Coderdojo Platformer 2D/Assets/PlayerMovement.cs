@@ -6,8 +6,9 @@ public class PlayerMovement : MonoBehaviour {
 
     public Rigidbody2D rb;
 
-    public float movementspeed = 500f;
-
+    public float movementSpeed = 500f;
+    public float jumpSpeed = 500f;
+    
 	// Use this for initialization
 	void Start () {
 		
@@ -17,12 +18,19 @@ public class PlayerMovement : MonoBehaviour {
 	void FixedUpdate () {
         if (Input.GetKey("d"))
         {
-            rb.AddForce(new Vector2(movementspeed * Time.deltaTime, 0), ForceMode2D.Impulse);
+            Debug.Log("D Key Pressed");
+            rb.AddForce(new Vector2(movementSpeed * Time.deltaTime, 0), ForceMode2D.Impulse);
         }
 
         if (Input.GetKey("a"))
         {
-            rb.AddForce(new Vector2(-movementspeed * Time.deltaTime, 0),ForceMode2D.Impulse);
+            Debug.Log("A Key Pressed");
+            rb.AddForce(new Vector2(-movementSpeed * Time.deltaTime, 0), ForceMode2D.Impulse);
+        }
+        if (Input.GetKeyDown("w") || Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("W Key Pressed");
+            rb.AddForce(new Vector2(0, jumpSpeed * Time.deltaTime), ForceMode2D.Impulse);
         }
     }
 }

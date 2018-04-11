@@ -100,7 +100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 50574406878073818}
-  movementspeed: 50
+  movementSpeed: 100
+  jumpSpeed: 100
 --- !u!212 &212060568259610022
 SpriteRenderer:
   m_ObjectHideFlags: 1

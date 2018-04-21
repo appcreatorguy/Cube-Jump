@@ -1,21 +1,21 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
-title: Type on Strap # site's title
+baseurl: "/Cube-Jump"
+url: "https://appcreatorguy.github.io"
+title: Cube Jump # site's title
 description: "A website with blog posts and pages" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type on Strap # blog's title
+  title: Cube Jump # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
+     <p>Download Cube Jump here!</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
@@ -29,7 +29,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "sylhare"
+  github: "appcreatorguy"
   google_plus:
   instagram:
   keybase:
@@ -45,14 +45,14 @@ theme_settings:
   wordpress:
   youtube:
 
-  # Scripts / Features 
+  # Scripts / Features
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
   portfolio: true
   search: true
   tags: true
-  
+
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
@@ -70,7 +70,7 @@ theme_settings:
 
   # Post navigation
   post_navigation: true
-  
+
 
 # PAGINATION
 paginate: 5

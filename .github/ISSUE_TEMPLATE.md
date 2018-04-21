@@ -1,13 +1,18 @@
-### Expected behaviour
+## Expected Behavior
 
 
-### Actual behaviour
+## Actual Behavior
 
 
-### Steps to reproduce this behaviour
+## Steps to Reproduce the Problem
 
+  1.
+  1.
+  1.
 
-### Specs (Project version, operating system, hardware, etc.)
+## Specifications
 
+  - Version:
+  - Platform:
 
 ### Ideas for how to fix this issue

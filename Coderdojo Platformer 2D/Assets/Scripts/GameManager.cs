@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
         {
             gameHasEnded = true;
             Debug.Log("GAME OVER");
-            // Invoke("Restart", restartDelay);
+            Invoke("Restart", restartDelay);
         }
     }
 

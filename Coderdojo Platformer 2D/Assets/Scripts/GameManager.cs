@@ -12,7 +12,9 @@ public class GameManager : MonoBehaviour
 
     public void CompleteLevel()
     {
+        Debug.Log("LEVEL WON");
         completeLevelUI.SetActive(true);
+        // SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1));
     }
 
     public void EndGame()

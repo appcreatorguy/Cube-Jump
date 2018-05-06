@@ -6,6 +6,7 @@ public class EndTrigger : MonoBehaviour {
 
     void OnTriggerEnter()
     {
+        Debug.Log("LEVEL WON!");
         gameManager.CompleteLevel();
     }
 

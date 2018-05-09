@@ -4,10 +4,11 @@ public class EndTrigger : MonoBehaviour {
 
     public GameManager gameManager;
 
-    void OnTriggerEnter()
+    void OnTriggerEnter2D ()
     {
         Debug.Log("LEVEL WON!");
-        gameManager.CompleteLevel();
+        // gameManager.CompleteLevel();
     }
+ 
 
 }
